@@ -1,0 +1,22 @@
+{
+  "name": "new_bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "telegram"
+  },
+  "keywords": [
+    "telegraf"
+  ],
+  "author": "Aiko",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "telegraf": "^4.3.0"
+  }
+}
